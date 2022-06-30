@@ -1,5 +1,7 @@
 # MovieApp
 
+[![Latest version](https://img.shields.io/badge/Latest%20Version-v1.0-success)](https://github.com/dan1603/MovieApp/releases)
+
 Kotlin Android Movie DB app that shows popular movies.
 
 ### Features
@@ -12,6 +14,10 @@ Kotlin Android Movie DB app that shows popular movies.
 Video demo is available [here](https://youtu.be/phsc5zSH810).
 
 <img width="250" src="https://user-images.githubusercontent.com/18060033/176648924-4868ac46-e8cd-4665-b4b1-df3caed2cd1b.png" /><img width="250" src="https://user-images.githubusercontent.com/18060033/176649105-42b46739-4821-4a68-8da0-91cc8173b447.png" /><img width="250" src="https://user-images.githubusercontent.com/18060033/176649251-8737c5ff-8e16-43c5-b455-3e848cc9d2a6.png" />
+
+### Download 
+
+You can download latest build on [releases page](https://github.com/dan1603/MovieApp/releases).
 
 ### Architecture
 - Kotlin
