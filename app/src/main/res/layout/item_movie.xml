@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/indentation_16"
+    android:layout_marginVertical="@dimen/indentation_8"
+    android:background="@drawable/bg_movie_item"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="@dimen/indentation_16"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="@dimen/view_params_280"
+        android:layout_height="@dimen/view_params_350"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/indentation_6"
+        android:gravity="center"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/txt_size_20"
+        app:layout_constraintTop_toBottomOf="@+id/ivPoster"
+        tools:text="Title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

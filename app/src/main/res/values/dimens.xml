@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_params_40">40dp</dimen>
+    <dimen name="view_params_180">180dp</dimen>
+    <dimen name="view_params_280">280dp</dimen>
+    <dimen name="view_params_350">350dp</dimen>
+
+    <dimen name="indentation_6">6dp</dimen>
+    <dimen name="indentation_8">8dp</dimen>
+    <dimen name="indentation_10">10dp</dimen>
+    <dimen name="indentation_16">16dp</dimen>
+    <dimen name="indentation_20">20dp</dimen>
+    <dimen name="indentation_34">34dp</dimen>
+    <dimen name="indentation_40">40dp</dimen>
+    <dimen name="indentation_42">42dp</dimen>
+
+    <dimen name="txt_size_14">14sp</dimen>
+    <dimen name="txt_size_20">20sp</dimen>
+    <dimen name="txt_size_24">24sp</dimen>
+</resources>

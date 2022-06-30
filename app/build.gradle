@@ -1,0 +1,68 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.kalashnyk.movietestapp"
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    // Core
+    api 'androidx.core:core-ktx:1.8.0'
+    api 'androidx.appcompat:appcompat:1.4.2'
+    api 'com.google.android.material:material:1.6.1'
+    api 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Coroutine
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
+
+    // Gson and Retrofit
+    api "com.squareup.retrofit2:retrofit:2.9.0"
+    api "com.squareup.retrofit2:converter-gson:2.9.0"
+    api "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2"
+    api "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
+    api 'com.google.code.gson:gson:2.9.0'
+
+    // Navigation
+    api "androidx.navigation:navigation-fragment-ktx:2.5.0"
+    api "androidx.navigation:navigation-ui-ktx:2.5.0"
+
+    // Koin
+    api "io.insert-koin:koin-android:3.2.0"
+
+    // glide
+    api 'com.github.bumptech.glide:glide:4.13.0'
+    kapt 'com.github.bumptech.glide:compiler:4.13.0'
+}

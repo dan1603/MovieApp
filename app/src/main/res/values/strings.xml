@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieTestApp</string>
+    <string name="action_open_trailer">Open trailer</string>
+    <string name="toolbar_home_title">Popular movies</string>
+    <string name="toolbar_movie_title">Movie</string>
+    <string name="toolbar_trailer_title">Explore trailer</string>
+</resources>
